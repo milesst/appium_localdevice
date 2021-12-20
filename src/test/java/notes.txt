@@ -1,0 +1,7 @@
+/*  You have successfully uploaded your app. Note the "app_url" value below. It uniquely identifies your uploaded app on BrowserStack. */
+
+{"app_url":"bs://b64d1644d200068004cf0450bf9451bbdfdd0c4c"}
+
+/* In your test script, use this "app_url" value to specify the application under test using the "app" capability. During test execution, your app will automatically be installed and launched on the device being tested. */
+
+caps.setCapability("app", "bs://b64d1644d200068004cf0450bf9451bbdfdd0c4c")
